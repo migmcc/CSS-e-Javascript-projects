@@ -120,23 +120,56 @@ p {
   background: black;
 }
 
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5rem;
-    border: 2px solid black;
-    width: 50vw;
-    height: 50vh;
-    background-color: beige;
+.menuBar {
+  position: relative;
+  background-color: #636e72;
+  height: 30vh;
+  width: 30vw;
 }
 
-.bar {
-    width: 90%;
-    height: 10%;
-    margin: 10%;
-    border-radius: 15px;
-    background-color: rgb(79, 63, 223);
+/* hiding the checkbox */
+#menu {
+  visibility: hidden;
 }
 
+/* hamburger */
+label,
+label::before,
+label::after {
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;;
+}
+label {
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  margin-left: -15%;
+  margin-top: -15%;
+}
+label::before {
+  content: "";
+  transform: translateY(-30px);
+  -wbkit-transform: translateY(-30px);
+}
+label::after {
+  content: "";
+  transform: translateY(30px);
+  -wbkit-transform: translateY(30px);
+}
+/* animate when checked */
+#menu:checked + label {
+  width: 0px;
+}
+#menu:checked + label::before {
+  transform: rotate(45deg) translate(0px);
+  -wbkit-transform: rotate(45deg) translate(0px);
+}
+#menu:checked + label::after {
+  transform: rotate(-45deg) translate(0px);
+  -wbkit-transform: rotate(-45deg) translate(0px);
+}
