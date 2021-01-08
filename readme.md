@@ -9,3 +9,5 @@ This are litle projects to learn the language and improve on the way.
 - 1-Navbar
 - 2- hamburger menu
   
+### JS projects
+- 1-Calculadora IMC
