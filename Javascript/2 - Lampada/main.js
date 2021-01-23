@@ -29,9 +29,11 @@ function partir () {
 function mudarEstado () {
     if (isDesligada()) {
         ligar();
+        btnMudar.textContent = 'Desligar';
     } 
     else {
         desligar();
+        btnMudar.textContent = 'Ligar';
     }
 }
 
