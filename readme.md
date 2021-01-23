@@ -7,8 +7,9 @@ This are litle projects to learn the language and improve on the way.
 ### CSS projects
 
 - 1-Navbar
-- 2- hamburger menu
+- 2-hamburger menu
   
 ### JS projects
 - 1-Calculadora IMC
 - 2-Lampada
+- 3-Semaforo
