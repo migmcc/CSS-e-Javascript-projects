@@ -11,3 +11,4 @@ This are litle projects to learn the language and improve on the way.
   
 ### JS projects
 - 1-Calculadora IMC
+- 2-Lampada
