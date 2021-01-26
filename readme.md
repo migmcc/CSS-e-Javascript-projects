@@ -13,3 +13,4 @@ This are litle projects to learn the language and improve on the way.
 - 1-Calculadora IMC
 - 2-Lampada
 - 3-Semaforo
+- 4-Slider(Carrossel)
