@@ -14,3 +14,4 @@ This are litle projects to learn the language and improve on the way.
 - 2-Lampada
 - 3-Semaforo
 - 4-Slider(Carrossel)
+- 5-Slider_2
