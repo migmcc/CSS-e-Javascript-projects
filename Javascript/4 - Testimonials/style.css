@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .3)), url(./img/questionBcg.jpeg);
+    background-color: #00000070;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    font-size:1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    text-align: center;
+    margin-top: 3rem;
+}
+header h2 {
+    color: rgb(219, 115, 46);
+}
+header h1 {
+    color: white;
+}
+
+.main-container {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    border: 1px solid white;
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.card-main-image {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    margin: -5rem auto;
+    margin-bottom: 1rem;
+}
+
+.card-name {
+    color: white;
+    margin: 1rem auto;
+}
+
+.card-star-image {
+    width: 40%;
+    height: 3rem;
+    margin: 1rem auto;
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.card-quote-image {
+    width: 5rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    font-size: 30px;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color: transparent;
+    color: rgb(219, 115, 46);;
+    border: 1px solid rgb(219, 115, 46);;
+}
