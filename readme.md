@@ -16,3 +16,4 @@ This are litle projects to learn the language and improve on the way.
 - 4-Testimonials
 - 5-Slider(Carrossel)
 - 6-Slider_2
+- 7-Filter
